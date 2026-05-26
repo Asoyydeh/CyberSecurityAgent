@@ -89,19 +89,19 @@ Buat file `.env` di root project:
 
 | Model | Kelebihan |
 |-------|-----------|
-| `google/gemma-4=` | Default, cepat & akurat |
-| `openai/gpt=` | Sangat capable |
-| `nvidia/nemotron=` | 120B parameter |
-| `nvidia/nemotron=` | Reasoning khusus |
-| `openai/gpt=` | Ringan & cepat |
-| `nvidia/nemotron=` | Balanced |
-| `nvidia/nemotron=` | Super cepat |
+| `gemma` | Default, cepat & akurat |
+| `gpt` | Sangat capable |
+| `nemotron` | parameter |
+| `nemotron` | Reasoning khusus |
+| `gpt` | Ringan & cepat |
+| `nemotron` | Balanced |
+| `nemotron` | Super cepat |
 
 ### Berbayar
 | Model | Kelebihan |
 |-------|-----------|
-| `google/gemini=` | Best overall |
-| `anthropic/claude=` | Terbaik untuk kode & analisis |
+| `gemini` | Best overall |
+| `claude` | Terbaik untuk kode & analisis |
 
 > 💡 **Auto-fallback**: Jika satu model rate-limited, sistem otomatis pindah ke model lain tanpa restart.
 
@@ -158,14 +158,12 @@ Hasil disimpan otomatis di folder `history/` dalam format Markdown.
 ```
 CyberSecurityAgent/
 ├── main.py           # Aplikasi utama & UI (18 menu)
-├── client.py         # OpenRouter API client (streaming + auto-fallback)
+├── client.py         # API client (streaming + auto-fallback)
 ├── analyzers.py      # System prompts untuk 16 mode AI
 ├── config.py         # Konfigurasi & daftar model
 ├── requirements.txt  # Dependencies Python
 ├── run.bat           # Launcher Windows (double-click)
 ├── .env.example      # Template konfigurasi API key
-├── .env              # API key Anda (JANGAN di-commit!)
-├── .gitignore        # Mengecualikan .env & history/
 └── history/          # Hasil analisis tersimpan (auto-generated)
     ├── web_pentest_20260527_022807.md
     ├── bug_analysis_20260527_*.md
