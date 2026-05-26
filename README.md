@@ -109,10 +109,6 @@ AI_API_KEY=sk-or-v1-your_api_key_here
 | `gpt` | Ringan & cepat |
 | `nemotron` | Balanced |
 | `nemotron` | Super cepat |
-
-### Berbayar
-| Model | Kelebihan |
-|-------|-----------|
 | `gemini` | Best overall |
 | `claude` | Terbaik untuk kode & analisis |
 
