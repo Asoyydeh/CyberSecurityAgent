@@ -5,12 +5,11 @@
 ![Banner](assets/banner.png)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-API-purple?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge)
 
 **AI-powered cybersecurity & development toolkit yang berjalan di terminal.**  
-Didukung oleh [OpenRouter](https://openrouter.ai) dengan akses ke puluhan model AI terbaik — **gratis maupun berbayar.**
+Memiliki akses ke puluhan model AI terbaik — **gratis maupun berbayar.**
 
 </div>
 
@@ -60,6 +59,7 @@ CyberSecurity Agent memiliki **18 mode analisis** yang terbagi dalam 3 kategori:
 
 ### Prasyarat
 - Python **3.8+**
+- AI API Key yang valid
 
 ### Langkah Instalasi
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 # 3. Setup API Key
 cp .env.example .env
-# Edit .env dan isi API_KEY dengan key Anda
+# Edit .env dan isi AI_API_KEY dengan key Anda
 
 # 4. Jalankan
 python -X utf8 main.py
@@ -90,6 +90,11 @@ run.bat
 ## ⚙️ Konfigurasi
 
 Buat file `.env` di root project:
+
+```env
+# Masukkan API Key Anda di sini
+AI_API_KEY=sk-or-v1-your_api_key_here
+```
 
 ---
 
@@ -172,6 +177,7 @@ CyberSecurityAgent/
 ├── requirements.txt  # Dependencies Python
 ├── run.bat           # Launcher Windows (double-click)
 ├── .env.example      # Template konfigurasi API key
+├── .env              # API key Anda (JANGAN di-commit!)
 └── history/          # Hasil analisis tersimpan (auto-generated)
     ├── web_pentest_20260527_022807.md
     ├── bug_analysis_20260527_*.md
@@ -184,7 +190,7 @@ CyberSecurityAgent/
 
 ```txt
 rich>=13.0.0      # Beautiful terminal UI
-requests>=2.31.0  # HTTP client untuk OpenRouter API
+requests>=2.31.0  # HTTP client
 ```
 
 Install:
@@ -208,7 +214,7 @@ pip install -r requirements.txt
 
 - **API key tidak pernah di-hardcode** — selalu dibaca dari environment variable / `.env`
 - File `.env` masuk `.gitignore` secara default
-- Tidak ada data yang dikirim selain ke OpenRouter API resmi
+- Data dikirim hanya ke API endpoint yang terkonfigurasi
 
 ---
 
@@ -230,7 +236,7 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 <div align="center">
 
-**Dibuat dengan ❤️ | Powered by [OpenRouter](https://openrouter.ai)**
+**Dibuat dengan ❤️ | AI DevTools**
 
 ⭐ Jika berguna, berikan Star di GitHub!
 

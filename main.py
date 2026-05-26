@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
-║            AI DevTools — Powered by OpenRouter               ║
+║            AI DevTools — Security & Bug Analyzer             ║
 ║  Bug | Security | Web Pentest | Recon | Hardening | CodeGen  ║
 ╚══════════════════════════════════════════════════════════════╝
 """
@@ -611,7 +611,7 @@ def main():
         console.print()
         if choice == "0":
             console.print(Panel(
-                "[bold cyan]👋 Terima kasih menggunakan AI DevTools!\nPowered by OpenRouter 🚀[/]",
+                "[bold cyan]👋 Terima kasih menggunakan AI DevTools! 🚀[/]",
                 border_style="cyan"))
             sys.exit(0)
         handler = ROUTES.get(choice)

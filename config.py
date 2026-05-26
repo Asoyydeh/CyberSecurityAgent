@@ -15,9 +15,9 @@ if _env_file.exists():
             os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 # ── API Key (wajib diset di .env atau environment variable) ─
-API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+API_KEY = os.environ.get("AI_API_KEY", "")
 if not API_KEY:
-    print("[ERROR] OPENROUTER_API_KEY belum diset!")
+    print("[ERROR] AI_API_KEY belum diset!")
     print("Salin .env.example menjadi .env lalu isi API key Anda.")
     import sys; sys.exit(1)
 
