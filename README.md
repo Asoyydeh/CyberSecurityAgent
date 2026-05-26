@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 # 3. Setup API Key
 cp .env.example .env
-# Edit .env dan isi OPENROUTER_API_KEY dengan key Anda
+# Edit .env dan isi API_KEY dengan key Anda
 
 # 4. Jalankan
 python -X utf8 main.py
