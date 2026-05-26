@@ -173,7 +173,6 @@ CyberSecurityAgent/
 ├── requirements.txt  # Dependencies Python
 ├── run.bat           # Launcher Windows (double-click)
 ├── .env.example      # Template konfigurasi API key
-├── .env              # API key Anda (JANGAN di-commit!)
 └── history/          # Hasil analisis tersimpan (auto-generated)
     ├── web_pentest_20260527_022807.md
     ├── bug_analysis_20260527_*.md
