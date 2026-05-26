@@ -97,7 +97,7 @@ Buat file `.env` di root project:
 | `nvidia/nemotron=` | Balanced |
 | `nvidia/nemotron=` | Super cepat |
 
-### Berbayar (Premium)
+### Berbayar
 | Model | Kelebihan |
 |-------|-----------|
 | `google/gemini=` | Best overall |
