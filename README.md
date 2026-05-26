@@ -2,11 +2,15 @@
 
 <div align="center">
 
+![Banner](assets/banner.png)
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-API-purple?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge)
 
+**AI-powered cybersecurity & development toolkit yang berjalan di terminal.**  
+Didukung oleh [OpenRouter](https://openrouter.ai) dengan akses ke puluhan model AI terbaik — **gratis maupun berbayar.**
 
 </div>
 
@@ -14,7 +18,11 @@
 
 ## ✨ Fitur Utama
 
+![Menu Preview](assets/menu_preview.png)
+
 CyberSecurity Agent memiliki **18 mode analisis** yang terbagi dalam 3 kategori:
+
+![Features](assets/features.png)
 
 ### 🔒 Security
 | No | Mode | Deskripsi |
