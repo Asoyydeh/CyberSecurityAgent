@@ -8,6 +8,12 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge)
 
+<br>
+
+![Stars](https://img.shields.io/github/stars/Asoyydeh/CyberSecurityAgent?style=for-the-badge&color=yellow)
+![Forks](https://img.shields.io/github/forks/Asoyydeh/CyberSecurityAgent?style=for-the-badge&color=orange)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Asoyydeh.CyberSecurityAgent&countColor=%23263759&style=for-the-badge)
+
 **AI-powered cybersecurity & development toolkit yang berjalan di terminal.**  
 Memiliki akses ke puluhan model AI terbaik — **gratis maupun berbayar.**
 
