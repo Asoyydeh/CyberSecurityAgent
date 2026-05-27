@@ -10,12 +10,7 @@ from config import API_KEY, BASE_URL, DEFAULT_MODEL
 
 # Model fallback jika primary rate-limited (hasil test)
 FALLBACK_MODELS = [
-    "google/gemma-4-31b-it:free",
-    "openai/gpt-oss-120b:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
-    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "openai/gpt-oss-20b:free",
-    "nvidia/nemotron-3-nano-30b-a3b:free",
+
 ]
 
 
